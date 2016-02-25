@@ -1,0 +1,58 @@
+html,
+body,
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background: #eeeeee;
+    overflow: hidden;
+}
+.container h1 {
+    margin: 2% 0 0 30%;
+}
+.box-container,
+.circle-container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    min-height: 560px;
+}
+.box-container,
+.main-container,
+.circle-container,
+.result-container {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+.main-container {
+    min-height: 300px;
+}
+/*.main-container svg{
+    opacity: 0.2;
+}*/
+
+.result-container {
+    min-height: 250px;
+}
+.circle-container {
+    margin-left: 15px;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+.drag-here {
+    font-size: 30px;
+    margin: 15% 0 0 35%;
+}
+.drop-active-class {
+    border: 1px solid #aaaaaa;
+    background: #ffffff;
+}
+.drop-hover {
+    border: 1px solid #999999;
+    background: #dadada;
+}
