@@ -34,6 +34,7 @@ function main_function() {
     );
     $(".draggable").draggable({
         handle: "g",
+        zIndex: 100,
         helper: function() {
             $copy = $(this).clone();
             return $copy.css({
