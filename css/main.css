@@ -1,58 +1,68 @@
-html,
-body,
-* {
-    margin: 0;
-    padding: 0;
+html,body,* {
+margin:0;
+padding:0
 }
+
 .container {
-    background: #eeeeee;
-    overflow: hidden;
+background:#eee;
+overflow:hidden
 }
+
 .container h1 {
-    margin: 2% 0 0 30%;
+margin:2% 0 0 30%
 }
-.box-container,
-.circle-container {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    min-height: 560px;
+
+.box-container,.circle-container {
+padding-left:0!important;
+padding-right:0!important;
+min-height:560px
 }
-.box-container,
-.main-container,
-.circle-container,
-.result-container {
-    border: 2px solid black;
-    margin: 5px;
-    padding: 5px;
+
+.box-container,.main-container,.circle-container,.result-container {
+border:2px solid #000;
+margin:5px;
+padding:5px
 }
+
 .main-container {
-    min-height: 300px;
+min-height:300px
 }
-/*.main-container svg{
-    opacity: 0.2;
-}*/
 
 .result-container {
-    min-height: 250px;
+min-height:250px
 }
+
 .circle-container {
-    margin-left: 15px;
+margin-left:15px
 }
+
 .hide {
-    display: none;
+display:none
 }
+
 .show {
-    display: block;
+display:block
 }
+
 .drag-here {
-    font-size: 30px;
-    margin: 15% 0 0 35%;
+font-size:30px;
+margin:15% 0 0 35%
 }
+
 .drop-active-class {
-    border: 1px solid #aaaaaa;
-    background: #ffffff;
+border:1px solid #aaa;
+background:#fff
 }
+
 .drop-hover {
-    border: 1px solid #999999;
-    background: #dadada;
+border:1px solid #999;
+background:#dadada
 }
+
+.reset-btn{
+position: absolute;
+top: 207px;
+right: 5px;
+}
+
+
