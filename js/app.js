@@ -94,4 +94,4 @@ function main_function() {
         $(".container").removeClass("hide").addClass("show");
         main_function();
     });
-}
+};
