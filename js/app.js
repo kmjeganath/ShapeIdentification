@@ -94,4 +94,28 @@ function main_function() {
         $(".container").removeClass("hide").addClass("show");
         main_function();
     });
-};
+}
+$(function() {
+    if ($(window).innerWidth() < 1200) {
+        $(".container").addClass("hide").removeClass("show");
+        $("#myModal").modal({
+            backdrop: "static"
+        });
+        main_function();
+    } else {
+        $("#myModal").modal("hide");
+        $(".container").addClass("show").removeClass("hide");
+        main_function();
+    }
+    $(window).resize(function() {
+        if ($(window).innerWidth() < 1200) {
+            $(".container").addClass("hide").removeClass("show");
+            $("#myModal").modal({
+                backdrop: "static"
+            });
+        } else {
+            $("#myModal").modal("hide");
+            $(".container").addClass("show").removeClass("hide");
+        }
+    });
+});
